@@ -83,7 +83,7 @@ Press Ctrl + C to leave debug repl
 >
 ```
 
-The value is 0. You can restart the program with `restart`. Upon closer examination of the first line, we can detect that `Math.floor` will always round to the lowers integer which is 0 in this case. What we want to use in this program is `Math.round()`, not `Math.floor()`.
+The value is 0. You can restart the program with `restart`. Upon closer examination of the first line, we can detect that `Math.floor` will always round to the lowest integer which is 0 in this case. What we want to use in this program is `Math.round()`, not `Math.floor()`.
 
 You can exit the debugger with `.exit`.
 
